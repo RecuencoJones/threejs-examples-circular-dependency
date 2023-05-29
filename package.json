@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "webpack serve",
+    "start:prod": "webpack serve --mode production",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "circular-dependency-plugin": "5.2.2",
+    "html-webpack-plugin": "5.5.1",
+    "three": "0.152.2",
+    "webpack": "5.84.1",
+    "webpack-cli": "5.1.1",
+    "webpack-dev-server": "4.15.0"
+  }
+}
